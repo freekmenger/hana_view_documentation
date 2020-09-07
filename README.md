@@ -5,7 +5,7 @@ Instructions:
 - download hana calculation views, either on folder level & unzip or seperately. Save all .hdbcalcview files in one folder
 - open a python session and add the password in keyring for the HANA user for the system you want to load the definitions from. E.g. 
   keyring.set_password(hana-production.domain.com, "password", "init1234")
-- run this program with python. Check all parameters are correct, not only the required ones.
+- run this program with python. Check all parameters are correct, not only the required ones. E.g. python hana_view_documentation.py --host hana-production.domain.com....
 - the program will generate an excel file with one sheet per calculation view
 
 Parameters:
