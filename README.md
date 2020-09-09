@@ -17,3 +17,6 @@ Parameters:
 - output_file: Output file. Make sure to include the complete path and file with extension: xlsx.
 
 Tested against HANA version: SPS 4 Patch 5. In theory it should work with other versions of HANA.
+
+Note:
+- source table synonyms that are used in calculation views can have the same name as the source table or have "_SYN" added to the name. This can be changed in the code to suit your needs.
